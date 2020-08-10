@@ -1,0 +1,69 @@
+html {
+    height: 100%; /* Ensures gradient background reaches bottom of page */
+}
+
+body {
+    background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%);
+}
+
+.container {
+    max-width: 1024px;
+    min-height: 500px;
+    margin: 0 auto;     /* Center the container */
+    background-color: darkkhaki;
+    
+}
+
+.navbar {
+    background-color: cornflowerblue;
+    
+}
+
+
+.navbar a {
+    font-size: 1.5rem;
+    font-family: 'Patrick Hand', cursive;
+    color: hotpink;
+    text-decoration: none; /* Remove default underline */
+    text-align: center;
+
+    width: 100px;
+    padding: 15px 0;
+    border-width: 5px 0;
+    border-style: solid;
+    border-color: black;
+    margin-left: 20px;
+    display: inline-block; /* Allow widths, padding, etc. to be applied */
+
+}
+
+.navbar a:hover {
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5));
+    transition-duration: 500ms;
+}
+
+
+.cards {
+    background-color: paleturquoise;
+    display: flex;
+}
+
+.card1 {
+    background-color: darkorange;
+    min-height: 300px;
+    width: 33.33%;
+
+}
+
+
+.card2 {
+    background-color: orange;
+    min-height: 300px;
+    width: 33.33%
+}
+
+.card3 {
+    background-color: orangered;
+    min-height: 300px;
+    width: 33.33%
+}
